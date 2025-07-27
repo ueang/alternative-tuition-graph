@@ -15,14 +15,14 @@ Unlike the `ListOfSchool` approach, this solution uses a single self-referential
 
 Each school points to the next, forming a linked list structure. This is conceptually similar but structurally different from the standard list-based version.
 
-## 🎯 What It Does
+## 🎯** What It Does**
 Renders a bar chart of school tuition values using 2htdp/image
 
 Recursively walks through each (make-school ...) node
 
 Uses overlay/align to stack rotated labels and bars
 
-##🧠 Concepts Practiced
+##🧠 **Concepts Practiced**
 Self-referential data structures
 
 Recursion over linked data
@@ -31,7 +31,7 @@ Functional programming with conditionals
 
 Modular rendering with 2htdp/image
 
-##🤔 Comparison
+##🤔** Comparison**
 Compared to the first version:
 
 ❌ This version requires handling both data and display in one function
